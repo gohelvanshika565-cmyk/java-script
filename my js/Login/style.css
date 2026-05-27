@@ -7,7 +7,7 @@
 
 .login{
     width: 380px;
-    height: 400px;
+    height: 450px;
     background-color: cornflowerblue;
     margin:auto;
     margin-top:200px;
@@ -52,4 +52,8 @@ button:hover{
     background-color: midnightblue;
     color: white;
 
+}
+
+h3{
+    margin: 20px 40px 20px 30px ;
 }
