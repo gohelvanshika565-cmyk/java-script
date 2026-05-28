@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: rgb(200, 217, 230);
+            text-align: center;
+            margin-top: 350px;
+        }
+
+        h1 {
+            color: rgb(47, 65, 86);
+        }
+
+        button {
+            background-color: rgb(47, 65, 86);
+            color: rgb(245, 239, 235);
+            border: 0;
+            padding: 10px 40px;
+            font-weight: 800;
+            border-radius: 10px;
+            margin-top: 40px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            color: rgb(47, 65, 86);
+            background-color: rgb(245, 239, 235);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcom Admin.!</h1>
+    <button onclick="logout()">Logout</button>
+
+    <script>
+        function logout() {
+            window.location.href = 'login.html';
+        }
+    </script>
+</body>
+
+</html>
