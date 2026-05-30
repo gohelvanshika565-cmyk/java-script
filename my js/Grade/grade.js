@@ -1,13 +1,13 @@
 "use strict";
-let marks = 87;
+let marks = 85;
 if (marks >= 90) {
     console.log("Grade A");
 }
 else if (marks >= 75) {
-    console.log("Grede B");
+    console.log("Grade B");
 }
 else if (marks >= 50) {
-    console.log("Grede C");
+    console.log("Grade C");
 }
 else {
     console.log("Fail");
