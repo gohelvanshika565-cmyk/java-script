@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: rgba(228, 207, 207, 0.256);
+}
+.btn{
+    margin: 300px 550px;
+}
+button{
+    border: 0;
+    background-color: darkcyan;
+    color: darkblue;
+    padding: 12px 24px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
