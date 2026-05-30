@@ -8,7 +8,8 @@ body{
     background-color: rgba(228, 207, 207, 0.256);
 }
 .btn{
-    margin: 300px 550px;
+    margin-top: 10px;
+    margin-left:550px;
 }
 button{
     border: 0;
