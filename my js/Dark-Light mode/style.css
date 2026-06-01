@@ -1,0 +1,26 @@
+body{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    text-align: center;
+    margin-top: 320px;
+}
+
+button{
+    border: 0;
+    padding: 12px 24px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
+.dark button:hover{
+    background-color: white;
+    color: black;
+}
