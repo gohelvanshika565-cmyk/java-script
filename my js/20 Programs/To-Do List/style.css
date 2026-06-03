@@ -1,0 +1,36 @@
+body{
+    font-family:Arial;
+    background-color: rgb(5, 39, 89);
+    color: white;
+}
+
+.ListCard{
+    width: 300px;
+    background-color: rgb(84, 131, 179);
+    padding: 50px 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.5);
+    margin: auto;
+}
+
+input{
+    width: 180px;
+    padding:10px 24px;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+button{
+    padding:10px;
+    cursor:pointer;
+    background-color: rgb(2, 16, 36);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+li{
+    margin-top:20px;
+    list-style:none;
+}

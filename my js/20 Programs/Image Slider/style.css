@@ -1,0 +1,24 @@
+body{
+    text-align:center;
+    margin-top:50px;
+    background-color: rgb(229, 201, 215);
+}
+
+#slide{
+    width:500px;
+    height:300px;
+    object-fit:cover;
+    border-radius:10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.5);
+    transition:0.5s;
+}
+
+button{
+    padding: 14px 24px;
+    background-color: rgb(38, 65, 94);
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-right: 20px;
+    border: 0;
+}
