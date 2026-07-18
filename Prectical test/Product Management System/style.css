@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    width: 90%;
+    margin: 4% auto;
+}
+caption{
+    text-align: center;
+    margin: 40px 40px;
+    font-size: 30px;
+}
+
+table, th, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 9px;
+}
+button {
+    padding: 10px 26px;
+    margin: 0 14px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(43, 99, 43);
+    color: white;
+    cursor: pointer;
+}
+
+.btn2 {
+    background-color: red;
+}
+
+
+td img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+.form-container{
+    width: 800px;
+    margin: 4% auto;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 14px 0;
+}
+
+div{
+    margin: 4% auto;
+    width: 500px;
+
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.5);
+    padding: 15px;
+}
